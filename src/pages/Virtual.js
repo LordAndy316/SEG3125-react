@@ -1,5 +1,5 @@
-var NewComponent = React.createClass({
-    render: function() {
+import React from "react";
+const Virtual = () => {
       return (
         <div>
           {/* Required meta tags */}
@@ -11,32 +11,7 @@ var NewComponent = React.createClass({
           <link rel="stylesheet" href="virtual.css" />
           <title>Treasurebox</title>
           <div className="container-fluid bg-dark">
-            <div className="container-fluid bg-primary" id="navbar">
-              <div className="container bg-primary">
-              </div>
-              <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-                <a className="navbar-brand lead " href="index.html">Treasurebox</a>
-                <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width={30} height={24} className="d-inline-block align-text-top" />
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span className="navbar-toggler-icon" />
-                </button>
-                <div className="collapse navbar-collapse " id="navbarSupportedContent">
-                  <ul className="navbar-nav ml-auto">
-                    <li className="nav-item active">
-                      <a className="nav-link text-light lead " href="home.html">Home</a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link text-light lead" href="explore.html">Explore Exibits</a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link text-light lead" href="donate.html">Donate</a>
-                    </li>
-                    <a className="nav-link text-light lead" href="about.html">About</a>
-                    <a className="nav-link text-light lead" href="news.html">News</a>
-                  </ul>
-                </div>
-              </nav>
-            </div>
+
             <div className="container bg-dark border">
               <div className="container bg-dark">
                 <div className="container" style={{backgroundImage: 'url("./img/3.jpg")'}}>
@@ -99,4 +74,4 @@ var NewComponent = React.createClass({
         </div>
       );
     }
-  });
+export default Virtual;

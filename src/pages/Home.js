@@ -1,4 +1,6 @@
-function Home() {
+import React from "react";
+
+const Home = () => {
     return (
     <div>
         {/* Required meta tags */}
@@ -9,36 +11,11 @@ function Home() {
         <link rel="stylesheet" href="index.css" />
         <title>Treasurebox</title>
         <div className="container-fluid bg-dark">
-        <div className="container-fluid bg-primary" id="navbar">
-            <div className="container bg-primary">
-            </div>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-            <a className="navbar-brand lead " href="index.html">Treasurebox</a>
-            <img src="../public/img/sq.png" alt="" width={40} height={40} className="d-inline-block align-text-top" />
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon" />
-            </button>
-            <div className="collapse navbar-collapse " id="navbarSupportedContent">
-                <ul className="navbar-nav ml-auto">
-                <li className="nav-item active">
-                    <a className="nav-link text-light lead " href="home.html">Home</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link text-light lead" href="explore.html">Explore Exibits</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link text-light lead" href="donate.html">Donate</a>
-                </li>
-                <a className="nav-link text-light lead" href="about.html">About</a>
-                <a className="nav-link text-light lead" href="news.html">News</a>
-                </ul>
-            </div>
-            </nav>
-        </div>
+
         <div className="container bg-dark border">
             <div className="container bg-dark">
             <h1 className="display-3  text-primary text-center">Explore Our Exibits</h1>
-            <img className="img-fluid" src="../public/img/3.jpg" alt="" />
+            <img className="img-fluid" src="/img/3.jpg" alt="" />
             <div className="d-grid gap-2 d-md-flex justify-content-md-end">
                 <span className="overlay-text text-light ">Featured: Greek Exibit</span>
                 <button className="btn btn-primary" type="button">Get Tickets Now</button>
@@ -47,7 +24,7 @@ function Home() {
             <div className="container bg-dark">
             <div className="row">
                 <div className="col-sm">
-                <img className="img-fluid d-none d-lg-block" src="../public/img/trex.png" alt="" />
+                <img className="img-fluid d-none d-lg-block" src="./img/trex.png" alt="" />
                 </div>
                 <div className="col-sm">
                 <h1 className="display-4 text-light">News title</h1>
@@ -64,7 +41,7 @@ function Home() {
             <div className="container bg-dark">
             <div className="row">
                 <div className="col-sm">
-                <img className="img-fluid d-none d-lg-block" src="../public/img/trex.png" alt="" />
+                <img className="img-fluid d-none d-lg-block" src="./img/trex.png" alt="" />
                 </div>
                 <div className="col-sm">
                 <h1 className="display-4 text-light">News title</h1>

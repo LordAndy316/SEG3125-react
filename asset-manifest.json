@@ -1,15 +1,19 @@
 {
   "files": {
     "main.css": "/SEG3125-react/static/css/main.91bd8025.css",
-    "main.js": "/SEG3125-react/static/js/main.ca9d9072.js",
+    "main.js": "/SEG3125-react/static/js/main.7013846c.js",
     "static/js/787.bd0af5ea.chunk.js": "/SEG3125-react/static/js/787.bd0af5ea.chunk.js",
+    "static/media/image.jpg": "/SEG3125-react/static/media/image.29a0dffebbdab864db15.jpg",
+    "static/media/Ancient_Greek_arms.jpg": "/SEG3125-react/static/media/Ancient_Greek_arms.5db8f01156f846ecf3dc.jpg",
+    "static/media/trex.png": "/SEG3125-react/static/media/trex.34999b5b6bdef02e0aae.png",
+    "static/media/3.jpg": "/SEG3125-react/static/media/3.a7b3753bd697d1381472.jpg",
     "index.html": "/SEG3125-react/index.html",
     "main.91bd8025.css.map": "/SEG3125-react/static/css/main.91bd8025.css.map",
-    "main.ca9d9072.js.map": "/SEG3125-react/static/js/main.ca9d9072.js.map",
+    "main.7013846c.js.map": "/SEG3125-react/static/js/main.7013846c.js.map",
     "787.bd0af5ea.chunk.js.map": "/SEG3125-react/static/js/787.bd0af5ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.91bd8025.css",
-    "static/js/main.ca9d9072.js"
+    "static/js/main.7013846c.js"
   ]
 }

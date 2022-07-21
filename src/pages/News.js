@@ -11,7 +11,6 @@ const News = () => {
           <link rel="stylesheet" href="index.css" />
           <title>Treasurebox</title>
           <div className="container-fluid bg-dark">
-
             <div className="container bg-dark border">
               <div className="container bg-dark">
                 <div className="row">

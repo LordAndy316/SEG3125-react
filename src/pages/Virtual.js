@@ -1,16 +1,18 @@
 import React from "react";
-var backgroundimg = "url('./img/3.jpg')";
-function VirtualClick1(){
-backgroundimg="url('./img/Ancient_Greek_arms.jpg')"
+import Image3 from '../img/3.jpg';
+
+var backgroundimg = {Image3};
+function VirtualClick1() {
+  backgroundimg = {Image3};
 }
-function VirtualClick2(){
-  backgroundimg="url('./img/3.jpg')"
-  }
-function toObjList(){
-  window.open('/objectlist', '_self')
+function VirtualClick2() {
+  backgroundimg = {Image3};
+}
+function toObjList() {
+  window.open("/objectlist", "_self");
 }
 
-var Virtual = () => {
+const Virtual = () => {
       return (
         <div>
           {/* Required meta tags */}

@@ -1,4 +1,5 @@
 import React from "react";
+import image from '../img/image.jpg';
 
 const About = () => {
     return (
@@ -14,7 +15,7 @@ const About = () => {
         
         <div className="container bg-dark border">
             <div className="container bg-dark">
-            <img className="img-fluid" src="./img/image.jpg" alt="" />
+            <img className="img-fluid" src={image} alt="" />
             <div className="d-grid gap-2 d-md-flex justify-content-md-end">
                 <span className="overlay-text text-light " />
             </div>

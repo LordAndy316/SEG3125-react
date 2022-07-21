@@ -1,4 +1,6 @@
 import React from "react";
+import trex from '../img/trex.png';
+
 
 const News = () => {
       return (
@@ -15,7 +17,7 @@ const News = () => {
               <div className="container bg-dark">
                 <div className="row">
                   <div className="col-sm">
-                    <img className="img-fluid d-none d-lg-block" src="./img/trex.png" alt="" />
+                    <img className="img-fluid d-none d-lg-block" src={trex} alt="" />
                   </div>
                   <div className="col-sm">
                     <h1 className="display-4 text-light">News title</h1>
@@ -35,7 +37,7 @@ const News = () => {
               <div className="container bg-dark">
                 <div className="row">
                   <div className="col-sm">
-                    <img className="img-fluid d-none d-lg-block" src="./img/trex.png" alt="" />
+                    <img className="img-fluid d-none d-lg-block" src={trex} alt="" />
                   </div>
                   <div className="col-sm">
                     <h1 className="display-4 text-light">News title</h1>
@@ -53,7 +55,7 @@ const News = () => {
                 </div>
                 <div className="row">
                   <div className="col-sm">
-                    <img className="img-fluid d-none d-lg-block" src="./img/trex.png" alt="" />
+                    <img className="img-fluid d-none d-lg-block" src={trex} alt="" />
                   </div>
                   <div className="col-sm">
                     <h1 className="display-4 text-light">News title</h1>

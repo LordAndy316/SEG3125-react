@@ -1,4 +1,6 @@
 import React from "react";
+import greek from '../img/Ancient_Greek_arms.jpg';
+import trex from '../img/trex.png';
 
 const ObjectList = () => {
       return (
@@ -15,7 +17,7 @@ const ObjectList = () => {
               <div className="container bg-dark">
                 <div className="row">
                   <div className="col-sm">
-                    <img className="img-fluid d-none d-lg-block" src="./img/Ancient_Greek_arms.jpg" alt="" />
+                    <img className="img-fluid d-none d-lg-block" src={greek} alt="" />
                   </div>
                   <div className="col-sm">
                     <h1 className="display-4 text-light">Greek Arms And Armour</h1>
@@ -31,7 +33,7 @@ const ObjectList = () => {
               <div className="container bg-dark">
                 <div className="row">
                   <div className="col-sm">
-                    <img className="img-fluid d-none d-lg-block" src="./img/trex.png" alt="" />
+                    <img className="img-fluid d-none d-lg-block" src={trex} alt="" />
                   </div>
                   <div className="col-sm">
                     <h1 className="display-4 text-light">News title</h1>
@@ -46,7 +48,7 @@ const ObjectList = () => {
                 </div>
                 <div className="row">
                   <div className="col-sm">
-                    <img className="img-fluid d-none d-lg-block" src="./img/trex.png" alt="" />
+                    <img className="img-fluid d-none d-lg-block" src={trex} alt="" />
                   </div>
                   <div className="col-sm">
                     <h1 className="display-4 text-light">News title</h1>

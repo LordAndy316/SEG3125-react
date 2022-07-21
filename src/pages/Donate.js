@@ -1,4 +1,5 @@
 import React from "react";
+import Image from '../img/image.jpg';
 
 const Donate = () => {
       return (
@@ -13,7 +14,7 @@ const Donate = () => {
           <div className="container-fluid bg-dark">
             <div className="container bg-dark border">
               <div className="container bg-dark">
-                <img className="img-fluid" src="/img/image.jpg" alt="" />
+                <img className="img-fluid" src={Image} alt="" />
                 <div className="d-grid gap-2 d-md-flex justify-content-md-end">
                   <span className="overlay-text text-light " />
                   <button className="btn btn-success btn-lg" type="button">DONATE</button>

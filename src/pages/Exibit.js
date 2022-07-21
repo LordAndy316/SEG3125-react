@@ -1,7 +1,10 @@
 import React from "react";
+import img3 from '../img/3.jpg';
 function toVirtual(){
   window.open('/virtual', '_self')
 }
+
+
 
 const Exhibit = () => {
       return (
@@ -16,7 +19,7 @@ const Exhibit = () => {
           <div className="container-fluid bg-dark">
             <div className="container bg-dark border">
               <div className="container bg-dark">
-                <img className="img-fluid" src="./img/3.jpg" alt="" />
+                <img className="img-fluid" src={img3} alt="" />
                 <div className="d-grid gap-2 d-md-flex justify-content-md-end">
                   <span className="overlay-text text-light lead " />
                   <button className="btn btn-success" type="button" onClick={toVirtual}>Buy Tickets</button>

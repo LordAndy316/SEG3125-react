@@ -1,4 +1,8 @@
 import React from "react";
+import trex from '../img/trex.png';
+import image from '../img/image.jpg';
+import image3 from '../img/3.jpg';
+
 function toExhibitPage(){
   window.open('/exhibit1', '_self')
 }
@@ -23,26 +27,26 @@ const Explore = () => {
 
               </div>
             <div className="container col">
-                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-                  <option selected>Time period</option>
-                  <option value="1">11 AM</option>
-                  <option value="2">12 PM</option>
-                  <option value="3">1 PM</option>
-                  <option value="3">2 PM</option>
+                <select defaultValue={'DEFAULT'} className="form-select form-select-sm" aria-label=".form-select-sm example">
+                  <option value="DEFAULT" disabled>Select a time</option>
+                  <option value="11">11 AM</option>
+                  <option value="12">12 PM</option>
+                  <option value="13">1 PM</option>
+                  <option value="14">2 PM</option>
               </select>
               </div>
               <div className="container col">
-                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-                  <option selected>Author</option>
-                  <option value="1">11 AM</option>
-                  <option value="2">12 PM</option>
-                  <option value="3">1 PM</option>
-                  <option value="3">2 PM</option>
+                <select defaultValue={'DEFAULT'} className="form-select form-select-sm" aria-label=".form-select-sm example">
+                  <option value="DEFAULT" disabled>Select a time</option>
+                  <option value="11">11 AM</option>
+                  <option value="12">12 PM</option>
+                  <option value="13">1 PM</option>
+                  <option value="14">2 PM</option>
               </select>
               </div>
               <div className="container col">
-                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-                  <option selected>Time</option>
+                <select defaultValue={'DEFAULT'} className="form-select form-select-sm" aria-label=".form-select-sm example">
+                  <option value="DEFAULT" disabled>Select a time</option>
                   <option value="1">11 AM</option>
                   <option value="2">12 PM</option>
                   <option value="3">1 PM</option>
@@ -55,7 +59,7 @@ const Explore = () => {
           <div className="container bg-dark">
             <div className="row">
               <div className="col-lg">
-                <img className="img-fluid d-none d-lg-block" src="./img/trex.png" alt="" />
+                <img className="img-fluid d-none d-lg-block" src={trex} alt="" />
               </div>_
               <div className="col-lg">
                 <h1 className="display-4 text-light">Dinosaur Exibit</h1>
@@ -74,7 +78,7 @@ const Explore = () => {
           <div className="container bg-dark">
             <div className="row">
               <div className="col-lg">
-                <img className="img-fluid d-none d-lg-block" src="./img/3.jpg" alt="" />
+                <img className="img-fluid d-none d-lg-block" src={image3} alt="" />
               </div>
               <div className="col-lg">
                 <h1 className="display-4 text-light">Greek Exibit</h1>
@@ -93,7 +97,7 @@ const Explore = () => {
           <div className="container bg-dark">
             <div className="row">
               <div className="col-lg">
-                <img className="img-fluid d-none d-lg-block" src="./img/image.jpg" alt="" />
+                <img className="img-fluid d-none d-lg-block" src={image} alt="" />
               </div>
               <div className="col-lg">
                 <h1 className="display-4 text-light">Cannon Exibit</h1>

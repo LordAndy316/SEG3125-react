@@ -1,4 +1,7 @@
 import React from "react";
+function toVirtual(){
+  window.open('/virtual', '_self')
+}
 
 const Exhibit = () => {
       return (
@@ -11,13 +14,12 @@ const Exhibit = () => {
           <link rel="stylesheet" href="index.css" />
           <title>Treasurebox</title>
           <div className="container-fluid bg-dark">
-            
             <div className="container bg-dark border">
               <div className="container bg-dark">
                 <img className="img-fluid" src="./img/3.jpg" alt="" />
                 <div className="d-grid gap-2 d-md-flex justify-content-md-end">
                   <span className="overlay-text text-light lead " />
-                  <button className="btn btn-success" type="button" onclick="toVirtual()">Buy Tickets</button>
+                  <button className="btn btn-success" type="button" onClick={toVirtual}>Buy Tickets</button>
                 </div>
               </div>
               <div className="container bg-dark">
@@ -26,7 +28,7 @@ const Exhibit = () => {
                     <button type="button" className="btn-primary" name="button"> BACK</button>
                   </div>
                   <div className="col-10">
-                    <h1 className="display-4 text-light">Description of Exibit</h1>
+                    <h1 className="display-4 text-light">Description of Exhibit</h1>
                     <div className="d-grid gap-2 d-md-flex justify-content-md-end ">
                       <p className="text-dark bg-light rounded">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco

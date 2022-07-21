@@ -14,10 +14,10 @@ const Home = () => {
 
         <div className="container bg-dark border">
             <div className="container bg-dark">
-            <h1 className="display-3  text-primary text-center">Explore Our Exibits</h1>
+            <h1 className="display-3  text-light text-center">Explore Our Exhibits</h1>
             <img className="img-fluid" src="/img/3.jpg" alt="" />
             <div className="d-grid gap-2 d-md-flex justify-content-md-end">
-                <span className="overlay-text text-light ">Featured: Greek Exibit</span>
+                <span className="overlay-text text-light ">Featured: Greek Exhibit</span>
                 <button className="btn btn-primary" type="button">Get Tickets Now</button>
             </div>
             </div>
@@ -32,7 +32,7 @@ const Home = () => {
                     <p className="text-dark bg-light rounded">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
                 <div className="container text-right">
-                    <span className="overlay-text text-light ">Featured: Dionsaur Exibit</span>
+                    <span className="overlay-text text-light ">Featured: Dinosaur Exhibit </span>
                     <button className="btn btn-primary" type="button">Get Tickets Now</button>
                 </div>
                 </div>
@@ -49,7 +49,7 @@ const Home = () => {
                     <p className="text-dark bg-light rounded">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
                 <div className="container text-right">
-                    <span className="overlay-text text-light ">Featured: Dionsaur Exibit</span>
+                    <span className="overlay-text text-light ">Featured: Dinosaur Exhibit </span>
                     <button className="btn btn-primary" type="button">Get Tickets Now</button>
                 </div>
                 </div>

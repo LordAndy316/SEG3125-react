@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="container bg-primary">
     </div>
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a className="navbar-brand lead " href="index.html">Treasurebox</a>
+        <a className="navbar-brand lead " href="/">Treasure Box</a>
         <img src="/img/sq.png" alt="" width={40} height={40} className="d-inline-block align-text-top" />
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />
@@ -17,7 +17,7 @@ const Navbar = () => {
                     <a className="nav-link text-light lead " href="/">Home</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link text-light lead" href="explore">Explore Exibits</a>
+                    <a className="nav-link text-light lead" href="explore">Explore</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link text-light lead" href="donate">Donate</a>

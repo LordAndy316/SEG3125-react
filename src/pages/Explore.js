@@ -1,5 +1,7 @@
 import React from "react";
-
+function toExhibitPage(){
+  window.open('/exhibit1', '_self')
+}
 const Explore = () => {
       return (
             <div>
@@ -15,6 +17,40 @@ const Explore = () => {
                 <div className="container bg-dark border">
                   <div className="container bg-dark">
                     <h1 className="display-3 text-light">Our Exibits</h1>
+                    <div className="container bg-dark ">
+                    <div className="container bg-dark row">
+                      <div className="container col">
+
+                      </div>
+                    <div className="container col">
+                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                          <option selected>Time period</option>
+                          <option value="1">11 AM</option>
+                          <option value="2">12 PM</option>
+                          <option value="3">1 PM</option>
+                          <option value="3">2 PM</option>
+                      </select>
+                      </div>
+                      <div className="container col">
+                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                          <option selected>Author</option>
+                          <option value="1">11 AM</option>
+                          <option value="2">12 PM</option>
+                          <option value="3">1 PM</option>
+                          <option value="3">2 PM</option>
+                      </select>
+                      </div>
+                      <div className="container col">
+                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                          <option selected>Time</option>
+                          <option value="1">11 AM</option>
+                          <option value="2">12 PM</option>
+                          <option value="3">1 PM</option>
+                          <option value="3">2 PM</option>
+                      </select>
+                      </div>
+                    </div>
+                    </div>
                   </div>
                   <div className="container bg-dark">
                     <div className="row">
@@ -30,7 +66,7 @@ const Explore = () => {
                         </div>
                         <div className="container text-right">
                           <span className="overlay-text text-light " />
-                          <button className="btn btn-primary" type="button" onclick="toEx1()">Get Tickets Now</button>
+                          <button className="btn btn-primary" type="button" onClick={toExhibitPage}>Get Tickets Now</button>
                         </div>
                       </div>
                     </div>
@@ -49,7 +85,7 @@ const Explore = () => {
                         </div>
                         <div className="container text-right">
                           <span className="overlay-text text-light " />
-                          <button className="btn btn-primary" type="button">Get Tickets Now</button>
+                          <button className="btn btn-primary" type="button" onClick={toExhibitPage}>Get Tickets Now</button>
                         </div>
                       </div>
                     </div>
@@ -68,7 +104,7 @@ const Explore = () => {
                         </div>
                         <div className="container text-right">
                           <span className="overlay-text text-light " />
-                          <button className="btn btn-primary" type="button">Get Tickets Now</button>
+                          <button className="btn btn-primary" type="button" onClick={toExhibitPage}>Get Tickets Now</button>
                         </div>
                       </div>
                     </div>
@@ -81,6 +117,5 @@ const Explore = () => {
             </div>
           );
         }
-
         
     export default Explore;
